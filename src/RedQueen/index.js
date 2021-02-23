@@ -81,7 +81,7 @@ export const RedQueen = () => {
 
     setInterval(() => {
       /* Set decay */
-      if (playbackRateRQ > .4) {
+      if (playbackRateRQ > 0.4) {
         playbackRateRQ *= .9;
         redQueen_alice.getAnimation().playbackRate = playbackRateRQ;
       }
